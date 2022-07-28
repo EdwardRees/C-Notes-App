@@ -51,6 +51,9 @@ namespace NotesApp {
 		public void PrintCollection(){
 			Console.WriteLine(this.ToString());
 		}
+    public int Size(){
+      return this.notes.Count;
+    }
 
 
 		public override string ToString(){
