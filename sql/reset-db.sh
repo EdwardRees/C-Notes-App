@@ -1,0 +1,1 @@
+psql csnotesdb < cmd.sql
